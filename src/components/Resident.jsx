@@ -25,10 +25,10 @@ useEffect(() =>{
 
 
     return (
-        <div className=" card border border-9 border-green-600">
+        <div className="rounded-lg overflow-hidden card border border-9 border-green-600">
         <article className="card2">
             <div className="relative">
-                <img src={residentInfo?.image} />
+                <img className="rounded overflow-hidden" src={residentInfo?.image} />
                 <div className="p-2 bg-black bg-opacity-70  border border-14 shadow-lg border-green-600 flex items-center gap-2 absolute bottom-3 left-[50%] -translate-x-[50%]">
                     <div className={`h-3 aspect-square ${statusStyles[residentInfo?.status]} rounded-full`}></div>
                     {residentInfo?.status}
