@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react"
 import Resident from "./Resident"
 import { paginationLogic } from "../utils/pagination"
-import "./ResidentList.css"
+import "./Resident.css"
 const firstPage = 1
 
 
